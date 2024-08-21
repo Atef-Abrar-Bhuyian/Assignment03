@@ -10,6 +10,9 @@
     <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=qUztdJ8JgJVI&format=png&color=000000"
         type="image/x-icon">
 
+    <!-- Font awesome Script -->
+    <script src="https://kit.fontawesome.com/49c2b39c0f.js" crossorigin="anonymous"></script>
+
     <!-- Manrope Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,6 +37,11 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'primary-color': '#212121',
+                        'btn-primary-color': '#ABEF5F',
+                        'secondary-color': '#494949',
+                        'gray-color': '#737373',
+                        'dark-gray-color': '#1C1C1C',
                     }
                 }
             }
@@ -41,10 +49,100 @@
     </script>
 </head>
 
-<body>
+<body class="manrope-font">
     <!-- Header Section -->
-    <header>
+    <header class="mb-40 h-96  bg-gradient-to-t to-gray-50 from-white/0">
+        <nav class="pt-3 lg:w-4/5 mx-auto">
+            <div class="navbar">
 
+                <!-- Nav First -->
+                <div class="navbar-start">
+                    <a
+                        class="btn btn-ghost text-3xl text-primary-color font-extrabold hover:bg-btn-primary-color ease-in-out duration-300"><i
+                            class="fa-solid fa-arrow-right text-sm bg-btn-primary-color flex items-center justify-center w-8 h-8 rounded-full -rotate-45"></i>
+                        Rinterio</a>
+                </div>
+
+                <!-- Nav Middle -->
+                <!-- Large Screen Menu -->
+                <div class="navbar-center mr-20 hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li
+                            class="text-secondary-color font-extrabold hover:text-white transition-colors duration-300 ease-in-out hover:bg-btn-primary-color hover:rounded-lg ">
+                            <a class="">Home</a>
+                        </li>
+                        <li
+                            class="text-gray-color hover:text-white transition-colors duration-300 ease-in-out hover:bg-btn-primary-color hover:rounded-lg">
+                            <a class="">Services</a>
+                        </li>
+                        <li
+                            class="text-gray-color hover:text-white transition-colors duration-300 ease-in-out hover:bg-btn-primary-color hover:rounded-lg">
+                            <a>Portfolio</a>
+                        </li>
+                        <li
+                            class="text-gray-color hover:text-white transition-colors duration-300 ease-in-out hover:bg-btn-primary-color hover:rounded-lg">
+                            <a>Blogs</a>
+                        </li>
+                        <li
+                            class="text-gray-color hover:text-white transition-colors duration-300 ease-in-out hover:bg-btn-primary-color hover:rounded-lg">
+                            <a>Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Nav END  -->
+                <div class="navbar-end">
+                    <div class="flex gap-4 mr-4">
+                        <a class="hidden md:inline-flex" href=""><i
+                                class="fa-solid fa-magnifying-glass  text-gray-color flex items-center justify-center  rounded-full bg-white w-8 h-8 border "></i></a>
+                        <a class="hidden md:inline-flex" href=""><i
+                                class="fa-solid fa-cart-shopping text-gray-color  flex items-center justify-center  rounded-full bg-white w-8 h-8 border"></i></a>
+                    </div>
+                    <a
+                        class="hidden md:inline-flex btn bg-btn-primary-color font-extrabold text-lg text-dark-gray-color hover:bg-btn-primary-color rounded-full hover:border-black">Book
+                        Consult <i
+                            class="fa-solid fa-arrow-right text-sm text-white bg-black flex items-center justify-center w-8 h-8 rounded-full -rotate-45"></i></a>
+                </div>
+                <!-- Dropdown -->
+                <div class="dropdown lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content navbar-end bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 ">
+                        <li
+                            class="text-secondary-color hover:text-white transition-colors duration-300 ease-in-out hover:bg-btn-primary-color hover:rounded-lg text-secondary-color">
+                            <a>Home</a>
+                        </li>
+                        <li
+                            class="text-gray-color hover:text-white transition-colors duration-300 ease-in-out hover:bg-btn-primary-color hover:rounded-lg">
+                            <a>Services</a>
+                        </li>
+                        <li
+                            class="text-gray-color hover:text-white transition-colors duration-300 ease-in-out hover:bg-btn-primary-color hover:rounded-lg">
+                            <a>Portfolio</a>
+                        </li>
+                        <li
+                            class="text-gray-color hover:text-white transition-colors duration-300 ease-in-out hover:bg-btn-primary-color hover:rounded-lg">
+                            <a>Blogs</a>
+                        </li>
+                        <li
+                            class="text-gray-color hover:text-white transition-colors duration-300 ease-in-out hover:bg-btn-primary-color hover:rounded-lg">
+                            <a>Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div>
+
+        </div>
     </header>
 
     <!-- Main Section -->
