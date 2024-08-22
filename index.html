@@ -39,6 +39,7 @@
         }
     </style>
 
+
     <!-- Tailwind Custom Script -->
     <script>
         tailwind.config = {
@@ -59,9 +60,15 @@
     </script>
 </head>
 
+<!-- Arrow Icon -->
+<!-- <i
+    class="fa-solid fa-arrow-right text-sm bg-btn-primary-color flex items-center justify-center w-8 h-8 rounded-full -rotate-45"></i> -->
+
 <body class="manrope-font">
     <!-- Header Section -->
     <header class="mb-10 lg:mb-24 bg-gradient-to-t to-gray-50 from-white/0">
+
+        <!-- Navbar Start Here -->
         <nav class="pt-3 lg:w-4/5 mx-auto">
             <div class="navbar">
                 <!-- Nav First -->
@@ -153,21 +160,33 @@
                 </div>
             </div>
         </nav>
+        <!-- Navbar Ends Here -->
 
         <!-- Hero Section -->
         <div class="lg:w-4/5 w-[90%] mx-auto mt-4">
-            <div><img class="mx-auto lg:w-5/12 w-4/5" src="assets/banner.png" alt=""></div>
+            <!-- Image Part -->
+            <div>
+                <img class="mx-auto lg:w-5/12 w-4/5" src="assets/banner.png" alt="">
+            </div>
+
+            <!-- Text Part -->
             <div class="text-center space-y-7">
+
+                <!-- Heading Part -->
                 <h1 class="mb-6 lg:text-6xl text-4xl text-stroke font-extrabold">A barn house of this design has
                     a
                     striking
                     appearance</h1>
+
+                <!-- Paragraph Part -->
                 <p class="text-secondary-color font-medium md:w-4/5 mx-auto">The barn house captivates with its blend of
                     rustic
                     charm and
                     modern
                     sophistication, featuring
                     weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+
+                <!-- Button Part -->
                 <div>
                     <button
                         class="w-full md:w-fit btn rounded-full font-bold bg-btn-primary-color-50 text-lg text-primary-color hover:bg-btn-primary-color">View
@@ -175,15 +194,77 @@
                         <i
                             class="fa-solid fa-arrow-right text-sm bg-btn-primary-color flex items-center justify-center w-8 h-8 rounded-full -rotate-45"></i></button>
                 </div>
-
-
             </div>
         </div>
+        <!-- Hero Section Ends Here -->
     </header>
 
     <!-- Main Section -->
-    <main>
+    <main class="bg-gray-100 ">
+        <!-- About Us Section Start Here -->
+        <section class="w-11/12 md:w-4/5 mx-auto pt-8 md:pt-20  mb-24">
+            <div class="relative">
+                <!-- vector image -->
+                <div class="absolute -top-14 -left-16 w-full hidden lg:block">
+                    <img src="assets/Vector.png" alt="">
+                </div>
 
+                <div class="md:flex justify-between">
+                    <!-- Text Part -->
+                    <div class="text-center md:text-start ">
+                        <button
+                            class="btn bg-white rounded-full hover:bg-btn-primary-color text-secondary-color font-bold mb-4"><i
+                                class="fa-solid fa-arrow-right"></i>About
+                            Us</button>
+
+                        <!-- Heading & Paragraph -->
+                        <div class="space-y-5 mb-5">
+                            <h1 class="text-stroke text-2xl md:text-4xl font-extrabold">We design
+                                thoughtful,<br>liveable spaces
+                            </h1>
+                            <p class="text-secondary-color font-medium">The barn house captivates with its blend of
+                                rustic charm and
+                                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                        </div>
+                        <!-- Card 1 -->
+                        <div class="flex gap-3 md:gap-4 bg-white p-5 rounded-xl md:w-11/12 mb-6">
+                            <div class="w-2/5 md:w-fit">
+                                <img src="assets/commercial.png" alt="">
+                            </div>
+                            <div class="text-start space-y-2">
+                                <h5 class="text-secondary-color font-extrabold">Commercial</h5>
+                                <p class="text-gray-color font-medium md:w-9/12">The barn house captivates with its
+                                    blend
+                                    of
+                                    rustic charm and
+                                    modern.</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="flex gap-3 md:gap-4 bg-white p-5 rounded-xl md:w-11/12 mb-6">
+                            <div class="w-2/5 md:w-fit">
+                                <img class="" src="assets/residential.png" alt="">
+                            </div>
+                            <div class="text-start space-y-2">
+                                <h5 class="text-secondary-color font-extrabold">Residential</h5>
+                                <p class="text-gray-color font-medium md:w-9/12">The barn house captivates with its
+                                    blend
+                                    of
+                                    rustic charm and
+                                    modern.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Image Part -->
+                    <div class="md:w-4/5 mx-auto">
+                        <img class="object-none object-center rounded-2xl" src="assets/Rectangle.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Us Section Ends Here -->
     </main>
 
     <!-- Footer -->
