@@ -352,10 +352,10 @@
                 </div>
 
                 <!-- Card Part -->
-                <div class="grid grid-cols-5 grid-rows-2 gap-5">
+                <div class="grid grid-cols-1 md:grid-cols-5 grid-rows-2 gap-5">
 
                     <!-- card 1 -->
-                    <div class="md:flex gap-4 border-2 rounded-lg p-6 col-span-3">
+                    <div class="md:flex gap-4 border-2 rounded-lg p-6 md:col-span-3">
                         <div class="w-full">
                             <img class="w-full" src="assets/img1.png" alt="">
                         </div>
@@ -370,8 +370,8 @@
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="border-2 rounded-lg p-6 col-span-2">
-                        <img src="assets/img2.png" alt="">
+                    <div class="border-2 w-full rounded-lg p-6 md:col-span-2">
+                        <img class="w-full border border-orange-800" src="assets/img2.png" alt="">
                     </div>
 
                     <!-- Card 3 -->
@@ -385,7 +385,7 @@
                     </div>
 
                     <!-- Card 5 -->
-                    <div class="md:flex gap-4 border-2 rounded-lg p-6 col-span-3">
+                    <div class="md:flex gap-4 border-2 rounded-lg p-6 md:col-span-3">
                         <div>
                             <img src="assets/img4.png" alt="">
                         </div>
@@ -468,8 +468,43 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-
+    <footer class="footer footer-center bg-dark-gray-color text-primary-content p-10">
+        <aside class="mt-10">
+            <a
+                class="btn btn-ghost text-3xl text-[#E9E9E9] font-extrabold hover:text-btn-primary-color hover:border-btn-primary-color ease-in-out duration-300"><i
+                    class="fa-solid fa-arrow-right text-dark-gray-color text-sm bg-btn-primary-color flex items-center justify-center w-8 h-8 rounded-full -rotate-45"></i>
+                Rinterio</a>
+            <p class="md:w-4/6 font-medium mx-auto text-gray-color">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                weathered
+                wood, sleek metal accents.
+            </p>
+        </aside>
+        <nav class="md:w-3/5">
+            <ul class="w-full  flex flex-col md:flex-row gap-8 justify-between">
+                <li
+                    class="cursor-pointer text-[#E9E9E9] hover:text-btn-primary-color transition-colors duration-300 ease-in-out">
+                    Home
+                </li>
+                <li
+                    class="cursor-pointer text-[#E9E9E9] hover:text-btn-primary-color transition-colors duration-300 ease-in-out">
+                    Services
+                </li>
+                <li
+                    class="cursor-pointer text-[#E9E9E9] hover:text-btn-primary-color transition-colors duration-300 ease-in-out">
+                    Portfolio</li>
+                <li
+                    class="cursor-pointer text-[#E9E9E9] hover:text-btn-primary-color transition-colors duration-300 ease-in-out">
+                    Blogs</li>
+                <li
+                    class="cursor-pointer text-[#E9E9E9] hover:text-btn-primary-color transition-colors duration-300 ease-in-out">
+                    Contact Us</li>
+            </ul>
+        </nav>
+        <a
+            class="inline-flex btn bg-btn-primary-color border-none font-extrabold text-lg text-dark-gray-color rounded-full hover:bg-black hover:text-btn-primary-color mb-4">Book
+            Consult <i
+                class="fa-solid fa-arrow-right text-sm text-white bg-dark-gray-color flex items-center justify-center w-8 h-8 rounded-full -rotate-45"></i></a>
     </footer>
 </body>
 
